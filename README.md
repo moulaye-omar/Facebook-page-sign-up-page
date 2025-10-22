@@ -10,5 +10,7 @@
 
 ### L'expérience :
 * Ce projet m'a poussé à fournir davantages d'efforts pour approfondir les petits details qui passe souvent inaperçus.
-
+## Laptop 
 ![Facebook page sign up page](sign_up_page.png)
+## Tablet et mobile
+![Facebook page sign up page mobile](sign_up_page_mobile.png)
