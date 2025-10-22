@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gainsboro;
+}
+main{
+    background: white;
+    width: 40%;
+    max-width: 30rem;
+}
+.info-user{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.info-user h1{
+    margin-top: 25px;
+    font-weight: bold;
+}
+.info-user p{
+    margin-bottom: 16px;
+}
+.info-user hr{
+    margin: 0 14%;
+}
+.info-user input{
+    width: 90%;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    border-radius: 5px;
+}
+.info-user .flexible{
+    margin: 20px 0 0;
+}
+.flexible{
+    width: 90%;
+    display: flex;
+    justify-self: center;
+    gap: 15px;
+}
+.flexible *{
+    flex: 1;
+}
+label{
+    margin-left: 5%;
+}
+.naissance .flexible{
+    margin: 0 0 20px;
+}
+.naissance select{
+    margin: 5px 0 15px;
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    border-radius: 5px;
+    background: gainsboro;
+}
+.genre .flexible div{
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0 15px;
+}
+main > p{
+    margin: 10px 5%;
+    width: 90%;
+}
+main > p a{
+    text-decoration: none;
+}
+main > p a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 90%;
+    padding: 10px;
+    margin: 20px 5%;
+    border-radius: 10px;
+    background: rgb(5, 156, 5);
+    border: none;
+}
+@media (max-width:768px) {
+    .flexible{
+        flex-direction: column;
+    }
+    .flexible{
+        gap: 0px;
+    }
+    .info-user input{
+        margin: 3px;
+    }
+    .info-user .flexible input{
+        width: 100%;
+    }
+    .flexible *{
+        margin: 3px !important;
+    }
+    .genre .flexible div{
+        width: 150px;
+    }
+}
+@media (max-width:1024px) and (min-width:376px){
+    main{
+        width: 60%;
+    }
+}
