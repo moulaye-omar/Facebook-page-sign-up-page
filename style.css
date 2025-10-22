@@ -121,6 +121,9 @@ button{
     .genre .flexible div{
         width: 110px;
     }
+    button{
+        margin-top: 10px ;
+    }
 }
 @media (max-width:1024px) and (min-width:376px){
     form{
